@@ -1,0 +1,40 @@
+/* -------------------
+
+---- Google Fonts ---*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+/* -------------------
+
+------ Utilities -----*/
+:root {
+  --whitespace-bg-color: #F3F1FF;
+  --content-bg-color: #FFF;
+  --nav-bg-color: #562EFF;
+
+  --section-heading-color: #562EFF;
+
+  --primary-title-color: #000;
+  --secendory-title-color: #1E1E1E;
+
+  --primary-text-color: #9f9f9f;
+  --secendory-text-color: #ED6B4F;
+
+  --link-color: #562EFF;
+  --nav-link-color: #fff;
+
+  --rating-filled-color: #FFC014;
+  --rating-empty-color: #AEAEAE;
+  
+  --primary-font-family: 'Poppins', sans-serif;
+  --secendory-font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
